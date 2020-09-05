@@ -1,6 +1,6 @@
-import 'package:codelab_register_login/home_page.dart';
-import 'package:codelab_register_login/login_page.dart';
-import 'package:codelab_register_login/register.dart';
+import 'package:codelab_register_login/view/home_page.dart';
+import 'package:codelab_register_login/view/login_page.dart';
+import 'package:codelab_register_login/view/register_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Login Register Flutter',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
